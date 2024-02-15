@@ -31,6 +31,14 @@ public class Square {
         this.isWinningSquare = false;
     }
 
+    public int getRow() {
+        return row;
+    }
+
+    public int getCol() {
+        return col;
+    }
+
     /******************** Getters and Setters ********************/
     public String getMarker() {
         return this.marker;
@@ -57,5 +65,8 @@ public class Square {
      */
     public String toString() {
         return this.marker;
+    }
+
+    public boolean isWinningSquare() { return this.isWinningSquare;
     }
 }
